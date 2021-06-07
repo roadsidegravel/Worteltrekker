@@ -1,0 +1,32 @@
+	enum enWhoMoves {X,Y,Z,C,T1,S};
+	enum enDirection {I,D};
+	Text CountX,CountY,CountZ,CountF,CountC,Count1;
+	Text EndstopMinX,EndstopMinY,EndstopMinZ,EndstopMinF,EndstopMinC,EndstopMin1;
+	Text EndstopMaxX,EndstopMaxY,EndstopMaxZ,EndstopMaxF,EndstopMaxC,EndstopMax1;
+
+incomingstring XIMIN001001MAX000110C120*120*120*120*
+
+list of outgoing commands, stop override alles (cleared de list en neemt dan eerste en enige plaats)
+Who, Where, What
+X,Y,... S is stop
+I,D (increasing, decreasing)
+number of steps
+
+direct movement control panel:
+stepcounts X Y Z F V T1
+endstop min X Y Z...
+eventueel endstop max X Y Z...
+
+stop knop(pen)
+increasing en decreasing X,Y,Z...
+twee dropdowns en een input veld?
+wie, welke richting, hoeveel
+
+usbpoort rescan optie/dropdown
+
+https://pythonforundergradengineers.com/python-arduino-LED.html
+https://magpi.raspberrypi.org/articles/program-arduino-uno-raspberry-pi
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install arduino
+
+https://stackoverflow.com/questions/2601194/displaying-a-webcam-feed-using-opencv-and-python/11449901#11449901
